@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {
 faCircleCheck, faPen, faTrashCan}
@@ -41,9 +42,9 @@ let newTask = toDo.map( task => {
     setToDo(newTask);
 }
 
-const cancelUpdate=()=>{
-setUpdateData('');
-}
+// const cancelUpdate=()=>{
+// setUpdateData('');
+// }
 
 const changeTask =(e)=>{
 let newEntry = {
